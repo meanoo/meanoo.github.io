@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Projects</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="projects.css">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+        </style>
+    <body>
+        <nav>
+            <div class="hamburger">
+              <div class="line"></div>  
+              <div class="line"></div>  
+              <div class="line"></div>  
+            </div>
+            <div class="left">
+                <ul class="leftlinks">
+                    <li><a href="#">REEL</a></li>
+                    <li><a href="#">SCHOOL</a></li>
+                    <li><a href="./april08 hw/index.html">MORE</a></li>
+                </ul>
+            </div>
+            <ul class="links">
+                <li><a href="../contact/contact.html">CONTACT</a></li>
+                <li><a href="../projects/projects.html">PROJECTS</a></li>
+                <li><a href="https://www.instagram.com/cinemograph/">INSTAGRAM</a></li>
+                <li><a href="#">VIMEO</a></li>
+            </ul>
+        </nav>
+        <script src="app.js"></script>
+        <section>
+            <video src="./Starfield_Vertical.mp4" autoplay="" muted="" loop=""></video>
+        </section>
+
+        <div class="textpic">
+            <img src="./r2p.png" alt="REEL 2020 PROCESS">
+            <h2>made with cinema4d // rendered with redshift </h2>
+            <video src="./Process_Dysto.mp4" autoplay="" muted="" loop=""></video>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- contentful apis-->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script>
+      var exports = {}; // quick fix because 'exports' is not defined in rich-text bundle below
+    </script>
+    <script src="https://unpkg.com/@contentful/rich-text-html-renderer@12.0.0/dist/rich-text-html-renderer.es5.js"></script>
+     <!-- mustache api-->
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="script.js"></script>
+    <script>
+      (function(){
+        app.initialize();
+        app.getAllEntries();
+      })();
+    </script>
+    </body>
+</html>

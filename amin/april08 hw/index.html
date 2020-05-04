@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+    </style>
+
+<body>
+    <div class="gallery-section">
+        <div class="inner-width">
+            <h1>Sci-Fi Series</h1>
+            <div class="border"></div>
+            <div class="gallery">
+
+                <a href="./assets/1.png" class="image">
+                    <img src="./assets/1.png" alt="img1">
+                </a>
+
+                <a href="./assets/2.png" class="image">
+                    <img src="./assets/2.png" alt="img2">
+                </a>
+
+                <a href="./assets/3.png" class="image">
+                    <img src="./assets/3.png" alt="img3">
+                </a>
+
+                <a href="./assets/4.png" class="image">
+                    <img src="./assets/4.png" alt="img4">
+                </a>
+
+                <a href="./assets/5.png" class="image">
+                    <img src="./assets/5.png" alt="img5">
+                </a>
+
+                <a href="./assets/6.png" class="image">
+                    <img src="./assets/6.png" alt="img6">
+                </a>
+
+                <a href="./assets/7.png" class="image">
+                    <img src="./assets/7.png" alt="img7">
+                </a>
+
+                <a href="./assets/8.png" class="image">
+                    <img src="./assets/8.png" alt="img8">
+                </a>
+
+                <a href="./assets/9.png" class="image">
+                    <img src="./assets/9.png" alt="img9">
+                </a>
+
+                <a href="./assets/10.png" class="image">
+                    <img src="./assets/10.png" alt="img10">
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
+
+</body>
+</html>
